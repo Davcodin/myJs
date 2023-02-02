@@ -1,0 +1,30 @@
+.red {
+    color: red;
+}
+
+.green {
+    color     : green;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.validate {
+    font-style : italic;
+    font-size  : 10px;
+    margin-left: 20px;
+    margin-top : 2px;
+    color      : red;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.form::after {
+    visibility: hidden;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 green;
+    opacity   : 0.5;
+}
